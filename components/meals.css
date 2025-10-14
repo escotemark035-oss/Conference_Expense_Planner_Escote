@@ -1,0 +1,19 @@
+.content-container {
+  padding: 60px;
+  background: linear-gradient(to right, #fffaf0, #fff5e1);
+  text-align: center;
+  min-height: 100vh;
+}
+
+.title {
+  color: #b45309;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+}
+
+.item-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}

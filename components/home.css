@@ -1,0 +1,48 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background: linear-gradient(135deg, #f0f8ff, #e6f0ff);
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+#col1, #col2 {
+  flex: 1;
+  padding: 20px;
+}
+
+#home-title {
+  font-size: 2.5rem;
+  color: #1f3b73;
+  margin-bottom: 10px;
+}
+
+#home-subtitle {
+  font-size: 1.2rem;
+  color: #3b4d79;
+  margin-bottom: 30px;
+}
+
+#getStarted-btn {
+  background-color: #3b82f6;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#getStarted-btn:hover {
+  background-color: #2563eb;
+}
+
+#home-message {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  text-align: justify;
+}
