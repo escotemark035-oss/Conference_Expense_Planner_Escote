@@ -1,6 +1,6 @@
 import { useEffect, useState, type ChangeEvent } from "react";
 import { useContext } from "react";
-import { AppContext } from "../context";
+import { AppContext } from "../src/context";
 import "./card.css";
 
 type Item = {

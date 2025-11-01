@@ -2,11 +2,11 @@ import "./Addons.css";
 import ItemCard from "./Card";
 
 // Import images for each addon
-import Projectors from "../assets/projectors.png"; // insert the image's path here
-import Speaker from "../assets/speaker.png"; // insert the image's path here
-import Microphones from "../assets/microphones.png"; // insert the image's path here
-import Whiteboard from "../assets/whiteboard.png"; // insert the image's path here
-import Signage from "../assets/signage.png"; // insert the image's path here
+import Projectors from "../src/assets/images/projectors.jpg"; // insert the image's path here
+import Speaker from "../src/assets/images/speaker.jpg"; // insert the image's path here
+import Microphones from "../src/assets/images/microphones.jpg"; // insert the image's path here
+import Whiteboard from "../src/assets/images/whiteboard.png"; // insert the image's path here
+import Signage from "../src/assets/images/signage.png"; // insert the image's path here
 
 function AddonsComp() {
   return (

@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AppContext } from "./context";
+import { AppContext } from "../src/context";
 import "./summary.css";
 
 function ExpenseSummary() {

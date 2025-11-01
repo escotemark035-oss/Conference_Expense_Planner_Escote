@@ -2,11 +2,11 @@ import "./venue.css";
 import ItemCard from "./Card";
 
 // Import images for each venue
-import ConferenceRoom from "../assets/conference_room.png"; // insert the image's path here
-import AuditoriumHall from "../assets/auditorium_hall.png"; // insert the image's path here
-import PresentationRoom from "../assets/presentation_room.png"; // insert the image's path here
-import LargeMeetingRoom from "../assets/large_meeting_room.png"; // insert the image's path here
-import SmallMeetingRoom from "../assets/small_meeting_room.png"; // insert the image's path here
+import ConferenceRoom from "../src/assets/images/projectors.jpg"; // insert the image's path here
+import AuditoriumHall from "../src/assets/images/auditorium_hall.jpg"; // insert the image's path here
+import PresentationRoom from "../src/assets/images/presentation_room.jpg"; // insert the image's path here
+import LargeMeetingRoom from "../src/assets/images/large_meeting_room.jpg"; // insert the image's path here
+import SmallMeetingRoom from "../src/assets/images/small_meeting_room.jpg"; // insert the image's path here
 
 function VenueComp() {
   return (

@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import HomeComp from "/Home";
-import VenusComp from "/Venue";
-import AddonsComp from "/Addons";
-import MesisComp from "/Mesis";
-import ExpenseSummary from "/Summary";
+import HomeComp from "./Home";
+import VenusComp from "./Venue";
+import AddonsComp from "./Addons";
+import MealsComp from "./Meals";
+import ExpenseSummary from "./Summary";
 import './navbar.css';
 
 type Sections = {
@@ -28,7 +28,7 @@ function NavBar() {
       isSelected: false,
     },
     {
-      text: "Mesis",
+      text: "Meals",
       isSelected: false,
     },
   ]);
@@ -71,14 +71,14 @@ function NavBar() {
     } else if (index === 2 && section.isSelected) {
       return <AddonsComp key="addons" />;
     } else if (index === 3 && section.isSelected) {
-      return <MesisComp key="meals" />;
+      return <MealsComp key="meals" />;
     }
   };
 
   return (
     <>
     <div className="nav-container">
-      <h2 className="title">C.E.P.</h2>
+      <h2 className="title">Conference Expense Planner</h2>
 
       <ul className="nav-list">
         {sectionList.map((value, i) => displaySections(value, i))}
@@ -86,7 +86,9 @@ function NavBar() {
 
       <button
         id="show-details"
-        onClick={() => setToggleDetails(toggleDetails ? true : false)}
+        
+        onClick={() => setToggleDetails(!toggleDetails)}
+
       >
         Show Details
       </button>

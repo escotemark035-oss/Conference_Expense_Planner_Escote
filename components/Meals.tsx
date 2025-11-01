@@ -1,11 +1,11 @@
 import "./meals.css";
 import ItemCard from "./Card";
 
-// Import images for each meal
-import Breakfast from "../assets/breakfast.png"; // insert the image's path here
-import Lunch from "../assets/lunch.png"; // insert the image's path here
-import HighTea from "../assets/hightea.png"; // insert the image's path here
-import Dinner from "../assets/dinner.png"; // insert the image's path here
+import Breakfast from "../src/assets/images/Breakfast.jpg";
+import Lunch from "../src/assets/images/Lunch.jpg";
+import HighTea from "../src/assets/images/HighTea.jpg";  // if it exists
+import Dinner from "../src/assets/images/Dinner.jpg";    // if it exists
+
 
 function MealsComp() {
   return (
